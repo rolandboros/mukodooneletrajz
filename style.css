@@ -1,0 +1,164 @@
+body {
+    background-color:rgb(255, 101, 0);
+    margin:0px;
+    
+}
+
+
+.menu p {
+    width: 200px;
+    height: 70px;
+    text-align: center;
+    position:relative;
+    left: 25%;
+    right: 25%;
+    font-size: 30px;
+    margin: 12px;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu {
+    display:inline-block;
+    position:relative;
+    border-radius: 10%;
+}
+ .menu :hover{
+    font-weight: 600;
+    border-radius: 10%;
+    padding:0px;
+ }
+
+ div a {
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+ }
+
+ div > h2 {
+text-align:center;
+background-color: rgb(196, 12, 12);
+width: 200px;
+border-radius: 50pt;
+border:2px solid black;
+margin:auto;
+ }
+
+.tartalom {
+    background-color: rgb(255, 193, 0);
+    width: 500px;
+    border-radius: 50px;
+    padding: 20px;
+    position: relative;
+    top: 40px;
+    margin:auto;
+    font-size: 30pt;
+}
+
+/* alsó rész */
+
+h2 {
+    margin-left: 20px;
+}
+
+.main {
+    padding: 20px;
+}
+.kep{
+    float: left;
+    width: 300px;
+    margin-right: 25px;
+}
+
+.bal {
+    float:left;
+}
+
+.jobb {
+    float:right;
+}
+
+.card {
+    width: 45%;
+}
+
+.content{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;   
+}
+
+
+
+/* floatos */
+
+.default {
+    padding: 20px;
+  }
+  
+  .balra{
+      float:left;
+  }
+  
+  .jobbra {
+      float:right;
+  }
+  
+  .kartya {
+      width: 45%;
+  }
+  
+  .fenykep {
+      float: left;
+      height: 200px;
+      margin-right: 25px;
+  }
+
+
+/* Hobbik */
+
+
+
+#hobbikfont {
+    font-size: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    background-color: rgb(255, 193, 0);
+    width: 500px;
+    margin:auto;
+    border-radius: 50pt;
+    padding:20px;
+
+}
+
+.oszlop {
+    
+    width: 22%;
+    position:absolute;
+    text-align:justify;
+    margin-left: 2%;
+}
+
+.oszlopketto{
+
+    width: 25%;
+    position:absolute;
+    left:25%;
+    text-align:justify;
+}
+
+.oszlopharom {
+
+    width: 20%;
+    position:absolute;
+    left:51%;
+    text-align:justify;
+}
+
+.oszlopnegy {
+  
+    width: 25%;
+    position:absolute;
+    left:72%;
+    text-align:justify;
+}
+
+
